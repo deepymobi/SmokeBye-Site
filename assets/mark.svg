@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="128" height="128" rx="36" fill="#13100F"/>
+  <g filter="url(#glow)">
+    <path d="M24 64H52" stroke="#FFB59E" stroke-width="14" stroke-linecap="round"/>
+    <path d="M76 64H104" stroke="#FFB59E" stroke-width="14" stroke-linecap="round"/>
+    <path d="M39 92L89 36" stroke="#FFB59E" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <path d="M49 64L60 52" stroke="#13100F" stroke-width="12" stroke-linecap="round"/>
+  <path d="M68 76L79 64" stroke="#13100F" stroke-width="12" stroke-linecap="round"/>
+  <defs>
+    <filter id="glow" x="10" y="22" width="108" height="84" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="4" result="effect1_foregroundBlur_1_1"/>
+    </filter>
+  </defs>
+</svg>
