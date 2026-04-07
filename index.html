@@ -3,165 +3,119 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SmokeBye | Smoke-free progress, savings, and recovery</title>
+    <title>SmokeBye</title>
     <meta
       name="description"
-      content="SmokeBye helps you track smoke-free time, money saved, cigarettes avoided, and health recovery progress."
+      content="SmokeBye helps you track smoke-free time, money saved, and health recovery progress in one calm, focused app."
     />
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="site-header__inner">
+    <header class="topbar">
+      <div class="shell topbar__inner">
         <a class="brand" href="/">
           <span class="brand__mark">
-            <img src="/assets/mark.svg" alt="SmokeBye mark" width="28" height="28" />
+            <img src="/assets/icon.png" alt="SmokeBye icon" width="42" height="42" />
           </span>
           <span class="brand__name">SmokeBye</span>
         </a>
-        <nav class="site-nav" aria-label="Primary">
+        <nav class="topnav" aria-label="Primary">
+          <a href="/">Home</a>
           <a href="/privacy">Privacy</a>
           <a href="/terms">Terms</a>
-          <a href="/support">Support</a>
         </nav>
       </div>
     </header>
 
-    <main class="page">
-      <section class="hero">
-        <div class="hero__grid">
-          <div>
-            <span class="hero__eyebrow">Smoke-free progress, made visible</span>
-            <h1>See your smoke-free life take shape.</h1>
-            <p>
-              SmokeBye helps you track smoke-free time, money saved, cigarettes
-              avoided, and health recovery milestones—so every day without
-              cigarettes feels real, measurable, and worth continuing.
-            </p>
-            <div class="hero__actions">
-              <a class="button button--primary" href="/support">Get support</a>
-              <a class="button button--secondary" href="/privacy">View privacy policy</a>
+    <main class="landing-main">
+      <section class="shell landing-hero">
+        <div class="hero-copy">
+          <span class="eyebrow eyebrow--brand">
+            <img src="/assets/icon.png" alt="" width="22" height="22" />
+            Smoke-free progress tracker
+          </span>
+          <h1>A clearer way to stay smoke-free.</h1>
+          <p>
+            SmokeBye helps you follow smoke-free time, money saved, avoided
+            cigarettes, and health recovery in one focused, beautifully simple
+            app.
+          </p>
+          <div class="hero-points">
+            <div class="hero-point">
+              <strong>Smoke-free time</strong>
+              <span>See your streak update in real time from the moment you quit.</span>
+            </div>
+            <div class="hero-point">
+              <strong>Money saved</strong>
+              <span>Turn skipped packs into visible daily, monthly, and yearly savings.</span>
+            </div>
+            <div class="hero-point">
+              <strong>Health recovery</strong>
+              <span>Follow milestones based on public recovery timelines.</span>
             </div>
           </div>
+        </div>
 
-          <div class="hero-card">
-            <div class="hero-card__mark">
-              <img src="/assets/mark.svg" alt="" width="74" height="74" />
-            </div>
-            <div class="hero-card__content">
-              <div class="hero-card__metric"><span>12d</span> smoke-free</div>
-              <div class="hero-card__meta">
-                <div class="hero-card__pill">
-                  <strong>$48.60 saved</strong>
-                  <span>See each smoke-free day turn into visible savings.</span>
-                </div>
-                <div class="hero-card__pill">
-                  <strong>54 avoided</strong>
-                  <span>Track how many cigarettes you have already skipped.</span>
-                </div>
-                <div class="hero-card__pill">
-                  <strong>Recovery progress</strong>
-                  <span>Follow milestones as your body gradually recovers.</span>
-                </div>
-              </div>
-            </div>
+        <div class="hero-visual">
+          <div class="hero-device">
+            <img
+              src="/assets/screenshot.png"
+              alt="SmokeBye dashboard screenshot on iPhone"
+              width="1419"
+              height="2796"
+            />
           </div>
         </div>
       </section>
 
-      <section class="section" id="features">
-        <div class="section__header">
+      <section class="shell section" id="overview">
+        <div class="section-header">
           <div>
-            <h2>What SmokeBye helps you do</h2>
+            <span class="eyebrow">Inside SmokeBye</span>
+            <h2>Progress that feels calm and visible.</h2>
           </div>
           <p>
-            SmokeBye keeps the experience simple and focused so you can see your
-            progress, stay motivated, and keep moving forward.
+            Built for people who want calm, visible progress instead of clutter.
+            Open the app and immediately see what your commitment is changing.
           </p>
         </div>
-        <div class="card-grid card-grid--three">
-          <article class="card">
-            <div class="card__icon">⏱</div>
-            <h3>Track real progress</h3>
-            <p>
-              Follow your smoke-free time in real time and see how every hour
-              without cigarettes adds up.
-            </p>
-          </article>
-          <article class="card">
-            <div class="card__icon">￠</div>
-            <h3>See the money you keep</h3>
-            <p>
-              Watch your savings grow with daily, monthly, and yearly estimates
-              based on your own smoking baseline.
-            </p>
-          </article>
-          <article class="card">
-            <div class="card__icon">❤</div>
-            <h3>Follow recovery milestones</h3>
-            <p>
-              Stay encouraged by recovery progress based on public research
-              timelines and milestone tracking.
-            </p>
-          </article>
-        </div>
-      </section>
 
-      <section class="section">
-        <div class="section__header">
-          <div>
-            <h2>Quick links</h2>
-          </div>
-          <p>
-            These pages are the same links used for App Store metadata and
-            in-app legal/support entry points.
-          </p>
-        </div>
-        <div class="card-grid card-grid--three">
-          <a class="card card--link" href="/privacy">
-            <div>
-              <div class="card__icon">🔒</div>
-              <h3>Privacy Policy</h3>
-              <p>
-                Learn what SmokeBye stores, how notifications work, and how we
-                handle user information.
-              </p>
-            </div>
-            <span class="card--link__footer">Open policy →</span>
-          </a>
-          <a class="card card--link" href="/terms">
-            <div>
-              <div class="card__icon">§</div>
-              <h3>Terms of Use</h3>
-              <p>
-                Review the terms that apply when using SmokeBye and our general
-                service conditions.
-              </p>
-            </div>
-            <span class="card--link__footer">Open terms →</span>
-          </a>
-          <a class="card card--link" href="/support">
-            <div>
-              <div class="card__icon">✉</div>
-              <h3>Support</h3>
-              <p>
-                Find help, contact information, and quick answers about setup,
-                notifications, and account-free app usage.
-              </p>
-            </div>
-            <span class="card--link__footer">Get support →</span>
-          </a>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-card__number">01</div>
+            <h3>Dashboard that stays focused</h3>
+            <p>
+              See smoke-free time, savings, avoided cigarettes, and life
+              regained without digging through menus.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__number">02</div>
+            <h3>Recovery milestones that feel real</h3>
+            <p>
+              Track recovery progress by category and keep an eye on the next
+              milestone waiting ahead.
+            </p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-card__number">03</div>
+            <h3>Settings that stay simple</h3>
+            <p>
+              Update your smoking baseline, price, and reminders whenever your
+              routine changes.
+            </p>
+          </article>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="site-footer__inner">
+      <div class="shell site-footer__inner">
         <div>© 2026 SmokeBye. Built by SixTree.</div>
         <div class="site-footer__links">
+          <a href="/">Home</a>
           <a href="/privacy">Privacy</a>
           <a href="/terms">Terms</a>
-          <a href="/support">Support</a>
         </div>
       </div>
     </footer>

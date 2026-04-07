@@ -11,171 +11,154 @@
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="site-header__inner">
+    <header class="topbar">
+      <div class="shell topbar__inner">
         <a class="brand" href="/">
           <span class="brand__mark">
-            <img src="/assets/mark.svg" alt="SmokeBye mark" width="28" height="28" />
+            <img src="/assets/icon.png" alt="SmokeBye icon" width="42" height="42" />
           </span>
           <span class="brand__name">SmokeBye</span>
         </a>
-        <nav class="site-nav" aria-label="Primary">
+        <nav class="topnav" aria-label="Primary">
           <a href="/">Home</a>
+          <a href="/privacy">Privacy</a>
           <a href="/terms">Terms</a>
-          <a href="/support">Support</a>
         </nav>
       </div>
     </header>
 
-    <main class="page">
-      <section class="hero hero--legal">
-        <span class="hero__eyebrow">Legal</span>
-        <h1>Privacy Policy</h1>
-        <p>
-          Effective date: April 7, 2026. This Privacy Policy explains how
-          SmokeBye handles information when you use the app and this website.
-        </p>
-      </section>
+    <main class="document-page">
+      <div class="shell document-shell">
+        <section class="document-hero">
+          <span class="eyebrow">Legal</span>
+          <h1>Privacy Policy</h1>
+          <p>
+            Effective date: April 7, 2026. This Privacy Policy explains how
+            SmokeBye handles information when you use the app and this website.
+          </p>
+        </section>
+        <article class="document-body">
+        <section id="overview">
+          <h2>Overview</h2>
+          <p>
+            SmokeBye is designed as a local smoke-free tracking app. You can
+            create a quit plan, track savings and recovery milestones, and
+            enable reminders without creating an account.
+          </p>
+          <p>
+            We aim to minimize the data we handle and to keep your core
+            tracking information on your device whenever possible.
+          </p>
+        </section>
 
-      <section class="legal-layout">
-        <aside class="legal-sidebar">
-          <div class="card">
-            <div class="pill">SmokeBye privacy overview</div>
-            <div class="legal-nav" aria-label="Privacy sections">
-              <a href="#overview">Overview</a>
-              <a href="#information">Information we handle</a>
-              <a href="#usage">How information is used</a>
-              <a href="#storage">Storage and retention</a>
-              <a href="#notifications">Notifications</a>
-              <a href="#third-parties">Third-party services</a>
-              <a href="#children">Children's privacy</a>
-              <a href="#changes">Changes</a>
-              <a href="#contact">Contact</a>
-            </div>
-          </div>
-        </aside>
+        <section id="information">
+          <h2>Information we handle</h2>
+          <h3>Information stored locally on your device</h3>
+          <ul>
+            <li>Your quit date and time</li>
+            <li>Your smoking baseline, such as cigarettes per day</li>
+            <li>Your pack price, pack size, and selected currency</li>
+            <li>Your notification preferences</li>
+          </ul>
 
-        <div class="legal-content">
-          <section class="card" id="overview">
-            <h2>Overview</h2>
-            <p>
-              SmokeBye is designed as a local smoke-free tracking app. You can
-              create a quit plan, track savings and recovery milestones, and
-              enable reminders without creating an account.
-            </p>
-            <p>
-              We aim to minimize the data we handle and to keep your core
-              tracking information on your device whenever possible.
-            </p>
-          </section>
+          <h3>Information you may provide voluntarily</h3>
+          <p>
+            If you contact us for support, you may provide your email address
+            and any information you choose to include in your message.
+          </p>
+        </section>
 
-          <section class="card" id="information">
-            <h2>Information we handle</h2>
-            <h3>Information stored locally on your device</h3>
-            <ul>
-              <li>Your quit date and time</li>
-              <li>Your smoking baseline, such as cigarettes per day</li>
-              <li>Your pack price, pack size, and selected currency</li>
-              <li>Your notification preferences</li>
-            </ul>
-            <h3>Information you may provide voluntarily</h3>
-            <p>
-              If you contact us for support, you may provide your email address
-              and any information you choose to include in your message.
-            </p>
-          </section>
+        <section id="usage">
+          <h2>How information is used</h2>
+          <p>Information in SmokeBye is used to:</p>
+          <ul>
+            <li>Generate your smoke-free progress and savings calculations</li>
+            <li>Display health recovery milestones and estimates</li>
+            <li>Schedule optional local reminders and milestone alerts</li>
+            <li>Respond to support requests you send to us</li>
+          </ul>
+          <p>
+            SmokeBye does not require a user account to provide its core
+            tracking features.
+          </p>
+        </section>
 
-          <section class="card" id="usage">
-            <h2>How information is used</h2>
-            <p>Information in SmokeBye is used to:</p>
-            <ul>
-              <li>Generate your smoke-free progress and savings calculations</li>
-              <li>Display health recovery milestones and estimates</li>
-              <li>Schedule optional local reminders and milestone alerts</li>
-              <li>Respond to support requests you send to us</li>
-            </ul>
-            <p>
-              SmokeBye does not require a user account to provide its core
-              tracking features.
-            </p>
-          </section>
+        <section id="storage">
+          <h2>Storage and retention</h2>
+          <p>
+            Your quit plan and notification preferences are stored locally on
+            your device using on-device app storage.
+          </p>
+          <p>
+            We do not intentionally upload your quit plan or smoke-free
+            tracking data to our servers as part of the current version of the
+            app.
+          </p>
+        </section>
 
-          <section class="card" id="storage">
-            <h2>Storage and retention</h2>
-            <p>
-              Your quit plan and notification preferences are stored locally on
-              your device using on-device app storage.
-            </p>
-            <p>
-              We do not intentionally upload your quit plan or smoke-free
-              tracking data to our servers as part of the current version of the
-              app.
-            </p>
-          </section>
+        <section id="notifications">
+          <h2>Notifications</h2>
+          <p>
+            SmokeBye can send optional local notifications, such as daily
+            reminders and recovery milestone alerts. Notification permissions
+            are requested only when you explicitly allow them.
+          </p>
+          <p>
+            You can turn notifications on or off at any time in the app's
+            notification settings or in your device settings.
+          </p>
+        </section>
 
-          <section class="card" id="notifications">
-            <h2>Notifications</h2>
-            <p>
-              SmokeBye can send optional local notifications, such as daily
-              reminders and recovery milestone alerts. Notification permissions
-              are requested only when you explicitly allow them.
-            </p>
-            <p>
-              You can turn notifications on or off at any time in the app's
-              notification settings or in your device settings.
-            </p>
-          </section>
+        <section id="third-parties">
+          <h2>Third-party services</h2>
+          <p>
+            SmokeBye may rely on platform providers such as Apple, Google, or
+            cloud hosting providers for app distribution, notifications, and
+            website delivery. Those providers may process information under
+            their own privacy policies.
+          </p>
+          <p>
+            If future versions of SmokeBye add analytics, account systems, or
+            cloud sync, this Privacy Policy will be updated accordingly.
+          </p>
+        </section>
 
-          <section class="card" id="third-parties">
-            <h2>Third-party services</h2>
-            <p>
-              SmokeBye may rely on platform providers such as Apple, Google, or
-              cloud hosting providers for app distribution, notifications, and
-              website delivery. Those providers may process information under
-              their own privacy policies.
-            </p>
-            <p>
-              If future versions of SmokeBye add analytics, account systems, or
-              cloud sync, this Privacy Policy will be updated accordingly.
-            </p>
-          </section>
+        <section id="children">
+          <h2>Children's privacy</h2>
+          <p>
+            SmokeBye is not directed to children under the age of 13, and we do
+            not knowingly collect personal information from children.
+          </p>
+        </section>
 
-          <section class="card" id="children">
-            <h2>Children's privacy</h2>
-            <p>
-              SmokeBye is not directed to children under the age of 13, and we
-              do not knowingly collect personal information from children.
-            </p>
-          </section>
+        <section id="changes">
+          <h2>Changes to this policy</h2>
+          <p>
+            We may update this Privacy Policy from time to time. When we do,
+            the updated version will be posted on this page with a revised
+            effective date.
+          </p>
+        </section>
 
-          <section class="card" id="changes">
-            <h2>Changes to this policy</h2>
-            <p>
-              We may update this Privacy Policy from time to time. When we do,
-              the updated version will be posted on this page with a revised
-              effective date.
-            </p>
-          </section>
-
-          <section class="card" id="contact">
-            <h2>Contact</h2>
-            <p>
-              If you have questions about this Privacy Policy or how SmokeBye
-              handles data, please contact us at
-              <a href="mailto:hello@sixtree.net">hello@sixtree.net</a>.
-            </p>
-          </section>
-        </div>
-      </section>
+        <section id="contact">
+          <h2>Contact</h2>
+          <p>
+            If you have questions about this Privacy Policy or how SmokeBye
+            handles data, please contact us at
+            <a href="mailto:hello@sixtree.net">hello@sixtree.net</a>.
+          </p>
+        </section>
+        </article>
+      </div>
     </main>
 
     <footer class="site-footer">
-      <div class="site-footer__inner">
+      <div class="shell site-footer__inner">
         <div>© 2026 SmokeBye. Built by SixTree.</div>
         <div class="site-footer__links">
           <a href="/">Home</a>
+          <a href="/privacy">Privacy</a>
           <a href="/terms">Terms</a>
-          <a href="/support">Support</a>
         </div>
       </div>
     </footer>

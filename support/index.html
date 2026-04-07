@@ -11,15 +11,15 @@
     <link rel="stylesheet" href="/assets/styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <div class="site-header__inner">
+    <header class="topbar">
+      <div class="shell topbar__inner">
         <a class="brand" href="/">
           <span class="brand__mark">
-            <img src="/assets/mark.svg" alt="SmokeBye mark" width="28" height="28" />
+            <img src="/assets/icon.png" alt="SmokeBye icon" width="42" height="42" />
           </span>
           <span class="brand__name">SmokeBye</span>
         </a>
-        <nav class="site-nav" aria-label="Primary">
+        <nav class="topnav" aria-label="Primary">
           <a href="/">Home</a>
           <a href="/privacy">Privacy</a>
           <a href="/terms">Terms</a>
@@ -27,90 +27,89 @@
       </div>
     </header>
 
-    <main class="page">
-      <section class="hero hero--legal">
-        <span class="hero__eyebrow">Support</span>
-        <h1>Need help with SmokeBye?</h1>
-        <p>
-          If you have questions, feedback, or need help using SmokeBye, you can
-          reach us any time at
-          <a href="mailto:hello@sixtree.net">hello@sixtree.net</a>.
-        </p>
-      </section>
+    <main class="support-page">
+      <div class="shell">
+        <section class="support-hero">
+          <span class="eyebrow">Support</span>
+          <h1>Need help with SmokeBye?</h1>
+          <p>
+            If you have questions, feedback, or need help using SmokeBye, you
+            can reach us at <a href="mailto:hello@sixtree.net">hello@sixtree.net</a>.
+          </p>
+        </section>
 
-      <section class="section">
-        <div class="card-grid card-grid--two">
-          <article class="card">
-            <div class="card__icon">✉</div>
-            <h3>Contact us</h3>
+        <section class="support-grid">
+          <article class="support-card">
+            <h2>Contact us</h2>
             <p>
               For support requests, bug reports, or general feedback, please
               email <a href="mailto:hello@sixtree.net">hello@sixtree.net</a>.
             </p>
-            <p style="margin-top: 12px;">
-              We will do our best to respond as quickly as possible.
-            </p>
+            <p>We will do our best to respond as quickly as possible.</p>
           </article>
 
-          <article class="card">
-            <div class="card__icon">ℹ</div>
-            <h3>About SmokeBye</h3>
+          <article class="support-card">
+            <h2>About SmokeBye</h2>
             <p>
               SmokeBye is a smoke-free progress tracker that helps you monitor
-              time, money saved, cigarettes avoided, and health recovery
-              milestones.
+              smoke-free time, money saved, cigarettes avoided, and health
+              recovery milestones.
             </p>
           </article>
-        </div>
-      </section>
+        </section>
 
-      <section class="section">
-        <div class="section__header">
-          <div>
-            <h2>Frequently asked questions</h2>
+        <section class="section support-callout">
+          <div class="section-header">
+            <div>
+              <span class="eyebrow">FAQ</span>
+              <h2>Frequently asked questions</h2>
+            </div>
+            <p>Quick answers for common setup and usage questions.</p>
           </div>
-          <p>
-            Quick answers for the most common setup and usage questions.
-          </p>
-        </div>
-        <div class="card-grid card-grid--two">
-          <article class="card">
-            <h3>How do I change my quit plan?</h3>
-            <p>
-              Open SmokeBye, go to Settings, and select <strong>Smoke settings</strong>.
-              From there, you can update your quit date, cigarettes per day,
-              pack price, currency, and cigarettes per pack.
-            </p>
-          </article>
-          <article class="card">
-            <h3>How do notifications work?</h3>
-            <p>
-              SmokeBye can send daily reminders and recovery milestone alerts.
-              You can manage notification preferences in the app's
-              <strong>Notifications</strong> settings.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Does SmokeBye require an account?</h3>
-            <p>
-              No. SmokeBye currently works without a user account. Your core quit
-              plan and notification settings are stored locally on your device.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Are recovery values medical advice?</h3>
-            <p>
-              No. Recovery progress and life regained estimates are based on
-              public research timelines and are provided for informational
-              purposes only.
-            </p>
-          </article>
-        </div>
-      </section>
+
+          <div class="faq-grid">
+            <article class="faq-card">
+              <h3>How do I change my quit plan?</h3>
+              <p>
+                Open SmokeBye, go to Settings, and select
+                <strong>Smoke settings</strong>. There you can update your quit
+                date, smoking baseline, price, currency, and pack size.
+              </p>
+            </article>
+
+            <article class="faq-card">
+              <h3>How do notifications work?</h3>
+              <p>
+                SmokeBye can send daily reminders and recovery milestone alerts.
+                You can manage notification preferences in the app's
+                <strong>Notifications</strong> settings.
+              </p>
+            </article>
+
+            <article class="faq-card">
+              <h3>Does SmokeBye require an account?</h3>
+              <p>
+                No. SmokeBye currently works without a user account. Your core
+                quit plan and notification settings are stored locally on your
+                device.
+              </p>
+            </article>
+
+            <article class="faq-card">
+              <h3>Are recovery values medical advice?</h3>
+              <p>
+                No. Recovery progress and life regained estimates are based on
+                public research timelines and are provided for informational
+                purposes only.
+              </p>
+            </article>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer class="site-footer">
-      <div class="site-footer__inner">
+      <div class="shell site-footer__inner">
         <div>© 2026 SmokeBye. Built by SixTree.</div>
         <div class="site-footer__links">
           <a href="/">Home</a>
