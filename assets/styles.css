@@ -228,8 +228,6 @@ a {
 .hero-point strong,
 .feature-card h3,
 .document-card h2,
-.support-card h2,
-.support-card h3,
 .faq-card h3 {
   display: block;
   margin-bottom: 6px;
@@ -240,7 +238,6 @@ a {
 
 .hero-point span,
 .feature-card p,
-.support-card p,
 .faq-card p,
 .document-card p,
 .document-card li {
@@ -276,8 +273,7 @@ a {
 }
 
 .section-header h2,
-.document-card h2,
-.support-hero h1 {
+.document-card h2 {
   margin: 0;
   font-size: clamp(30px, 4vw, 44px);
   line-height: 1.02;
@@ -291,7 +287,6 @@ a {
 }
 
 .feature-grid,
-.support-grid,
 .faq-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -299,7 +294,6 @@ a {
 }
 
 .feature-card,
-.support-card,
 .faq-card,
 .document-card,
 .cta-panel {
@@ -319,25 +313,21 @@ a {
   text-transform: uppercase;
 }
 
-.document-page,
-.support-page {
+.document-page {
   padding: 36px 0 84px;
 }
 
-.document-hero,
-.support-hero {
+.document-hero {
   max-width: 760px;
   padding: 38px 0 28px;
 }
 
-.document-hero h1,
-.support-hero h1 {
+.document-hero h1 {
   font-size: clamp(40px, 6vw, 64px);
   margin-bottom: 14px;
 }
 
-.document-hero p,
-.support-hero p {
+.document-hero p {
   margin: 0;
   color: var(--muted);
   font-size: 18px;
@@ -386,20 +376,6 @@ a {
   margin-top: 8px;
 }
 
-.support-grid {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.support-card a {
-  color: var(--text);
-  text-decoration: underline;
-  text-underline-offset: 4px;
-}
-
-.support-callout {
-  margin-top: 22px;
-}
-
 .site-footer {
   border-top: 1px solid rgba(231, 226, 218, 0.95);
   background: rgba(255, 255, 255, 0.78);
@@ -438,7 +414,6 @@ a {
 
   .hero-points,
   .feature-grid,
-  .support-grid,
   .faq-grid {
     grid-template-columns: 1fr;
   }
@@ -461,14 +436,12 @@ a {
   }
 
   .landing-main,
-  .document-page,
-  .support-page {
+  .document-page {
     padding-top: 18px;
   }
 
   .landing-hero h1,
-  .document-hero h1,
-  .support-hero h1 {
+  .document-hero h1 {
     font-size: clamp(38px, 12vw, 52px);
   }
 
@@ -485,7 +458,6 @@ a {
   }
 
   .feature-card,
-  .support-card,
   .faq-card,
   .document-card {
     padding: 22px;

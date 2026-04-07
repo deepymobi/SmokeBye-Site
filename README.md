@@ -5,7 +5,6 @@ This directory contains the static pages intended for deployment to Cloudflare P
 - `/` homepage
 - `/privacy`
 - `/terms`
-- `/support`
 
 ## Suggested Cloudflare Pages setup
 
@@ -21,4 +20,3 @@ This directory contains the static pages intended for deployment to Cloudflare P
 
 - Privacy Policy URL: `https://smokebye.sixtree.net/privacy`
 - Terms of Use URL: `https://smokebye.sixtree.net/terms`
-- Support URL: `https://smokebye.sixtree.net/support`
